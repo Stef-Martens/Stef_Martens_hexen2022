@@ -125,9 +125,14 @@ public class Board
         if (!_pieces.TryGetValue(fromPosition, out var piece))
             return false;
 
-        _pieces.Remove(fromPosition);
+        if (!piece.IsPlayer)
+        {
+            _pieces.Remove(fromPosition);
 
-        OnPieceTaken(new PieceTakenEventArgs(piece, fromPosition));
+            OnPieceTaken(new PieceTakenEventArgs(piece, fromPosition));
+
+        }
+
 
         return true;
     }
