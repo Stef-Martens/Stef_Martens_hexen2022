@@ -730,6 +730,7 @@ MonoBehaviour:
   - {fileID: 7998544617713184249, guid: 768e345885ae6094d9511edc925e0196, type: 3}
   - {fileID: 5548288379367767925, guid: 2135bad0034a92c4ca39cdbb37a4d0bd, type: 3}
   - {fileID: 5820896168481736662, guid: 97ff68df3ffc69545b66f6f1570e969d, type: 3}
+  - {fileID: 5820896168481736662, guid: f8353f4667a7de848b599d93a1361db4, type: 3}
   CurrentCard: {fileID: 0}
 --- !u!1001 &3617055520865336105
 PrefabInstance:

@@ -10,6 +10,7 @@ public class MoveSetCollection
         _movesets.Add(CardType.Swipe, new SwipeMoveSet(board));
         _movesets.Add(CardType.Slash, new SlashMoveSet(board));
         _movesets.Add(CardType.Push, new PushbackMoveSet(board));
+        _movesets.Add(CardType.Meteor, new MeteorMoveSet(board));
     }
 
     public IMoveSet For(CardType type) => _movesets[type];
